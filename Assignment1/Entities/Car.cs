@@ -8,6 +8,17 @@ namespace Assignment1.Entities
     {
         public CarMake Make { get; set; } //make enum
         public string Model { get; set; }
-        public CarBodyStyle BodyStyle { get; set; } //make enum 
+        public CarBodyStyle BodyStyle { get; set; } //make enum
+
+        public Car() { }
+
+        public Car (string name, int capacity, int year, decimal price, CarMake make, string model, CarBodyStyle bodyStyle) : base(name, capacity, year, price)
+        {
+            this.Make = make;
+            this.Model = model;
+            this.BodyStyle = bodyStyle;
+        }
+
+
     }
 }
