@@ -6,9 +6,9 @@ namespace Assignment1.Entities
 {
     class Car: Vehicle
     {
-        public CarMake Make { get; set; } //make enum
+        public CarMake Make { get; set; }
         public string Model { get; set; }
-        public CarBodyStyle BodyStyle { get; set; } //make enum
+        public CarBodyStyle BodyStyle { get; set; } 
 
         public Car() { }
 
