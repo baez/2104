@@ -11,7 +11,6 @@ namespace WindowsAppLib.OOD
         public int Year;
         public string Trim;
         public string BodyType;
-        public Engines Engine;
 
         public decimal Kilometers;
         public decimal Price;

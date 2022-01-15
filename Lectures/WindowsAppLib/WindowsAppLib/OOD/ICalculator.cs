@@ -4,8 +4,7 @@ using System.Text;
 
 namespace WindowsAppLib.OOD
 {
-    public class Motorcycle: Vehicle
+    public interface ICalculator
     {
-        
     }
 }

@@ -34,8 +34,24 @@ namespace WindowsAppConsole
             Vehicle vt = truck;
             Car car4 = (Car)vt;
 
+
+            var values = new int[] {2, 4, 5, 8);
+            Program.Calculate(values, new Squarer());
+            Program.Display(result);
+
+
         }
 
+        public static int[] Calculate(int[] values, ICalculator calculator)
+        {
+            int[] result = new int[values.Length];
+            for (int i = 0; i < values.Length; i++)
+            {
+                var r = calculator.Calculate(values[i]);
+                result[i] = r;
+            }
+            return result;
+        }
         public static void Display(Vehicle vehicle)
         {
             Console.WriteLine(vehicle.Make);
