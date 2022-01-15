@@ -15,5 +15,10 @@ namespace WindowsAppLib.OOD
 
         public decimal Kilometers;
         public decimal Price;
+
+        public Car()
+        {
+            Engine = Engines.Cylinder_4;
+        }
     }
 }
