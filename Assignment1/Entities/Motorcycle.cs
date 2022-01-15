@@ -13,7 +13,7 @@ namespace Assignment1.Entities
 
         public Motorcycle() { }
 
-        public Motorcycle(string name, int capacity, int year, decimal price, MotorcycleMake make, string model, MotorcycleBodyStyle bodyStyle) : base(name, capacity, year, price)
+        public Motorcycle(string name, int capacity, int year, decimal price, string vin, MotorcycleMake make, string model, MotorcycleBodyStyle bodyStyle) : base(name, capacity, year, price, vin)
         {
             this.Make = make;
             this.Model = model;

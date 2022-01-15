@@ -12,7 +12,7 @@ namespace Assignment1.Entities
 
         public Car() { }
 
-        public Car (string name, int capacity, int year, decimal price, CarMake make, string model, CarBodyStyle bodyStyle) : base(name, capacity, year, price)
+        public Car (string name, int capacity, int year, decimal price, string vin, CarMake make, string model, CarBodyStyle bodyStyle) : base(name, capacity, year, price, vin)
         {
             this.Make = make;
             this.Model = model;
