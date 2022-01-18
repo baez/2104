@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6m51Kupp6UbGii/mPQ+w4co1fQXa7Td89qLNMN9Wu95KWwK+ieRxmyKBUMh637ihzg+HNTPnDh7LEkE/LKyEew==",
+  "success": true,
+  "projectFilePath": "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Lectures\\WindowsAppLib\\WindowsAppConsole\\WindowsAppConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\000428830\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

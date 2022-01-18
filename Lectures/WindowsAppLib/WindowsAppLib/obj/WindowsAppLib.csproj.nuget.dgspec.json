@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Assignment1\\Assignment1.csproj": {}
+    "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Lectures\\WindowsAppLib\\WindowsAppLib\\WindowsAppLib.csproj": {}
   },
   "projects": {
-    "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Assignment1\\Assignment1.csproj": {
+    "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Lectures\\WindowsAppLib\\WindowsAppLib\\WindowsAppLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Assignment1\\Assignment1.csproj",
-        "projectName": "Assignment1",
-        "projectPath": "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Assignment1\\Assignment1.csproj",
+        "projectUniqueName": "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Lectures\\WindowsAppLib\\WindowsAppLib\\WindowsAppLib.csproj",
+        "projectName": "WindowsAppLib",
+        "projectPath": "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Lectures\\WindowsAppLib\\WindowsAppLib\\WindowsAppLib.csproj",
         "packagesPath": "C:\\Users\\000428830\\.nuget\\packages\\",
-        "outputPath": "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Assignment1\\obj\\",
+        "outputPath": "D:\\000428830-files\\2104\\karinaZialcita\\2104\\Lectures\\WindowsAppLib\\WindowsAppLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -55,6 +55,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.18, 3.1.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
