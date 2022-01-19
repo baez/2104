@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using Assignment2.Enums;
 using System.Reflection;
+using Assignment2.Interfaces;
+
 namespace Assignment2.Entities
 {
-    class Car: Vehicle
+    class Car: Vehicle, IVehicle
     {
         public CarMake Make { get; set; }
         public string Model { get; set; }
@@ -21,7 +23,9 @@ namespace Assignment2.Entities
 
             foreach (PropertyInfo property in propertyInfo)
             {
-                manifest.Append(property.Name + ": " + property.GetValue(this) + "\n");
+/*                manifest.Append(property.Name + ": " + property.GetValue(this) + "\n");
+                */
+                manifest.Append(property.Name + ": " + property.GetValue(this) + " || ");
             }
 
             return manifest.ToString();
